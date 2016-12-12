@@ -1,0 +1,12 @@
+type Home {
+  hello: String
+}
+
+type Query {
+  home: Home
+  user: User
+}
+
+type User {
+  name: String
+}
