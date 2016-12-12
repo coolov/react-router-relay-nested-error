@@ -51,7 +51,6 @@ ReactDOM.render(
       component={Shell}
       queries={{user: () => Relay.QL`query { user }`}}
       render={({ error, props, element }) => {
-        debugger;
         if (error) {
           return <div>Error!</div>;
         }
